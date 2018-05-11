@@ -4,23 +4,38 @@
 SHELL:=/bin/bash
 
 NUXT_PATH = node_modules/.bin/nuxt
+SITE_NAME = evgeniyblinov.github.io
+GITHUB_ACCOUNT = EvgeniyBlinov
 
 #DIRS = bin
 
 # Fake targets
-.PHONY: build install
+.PHONY: build install copy generate nuxt-generate
 
 all: build
 
 $(DIRS):
 	mkdir -p $@
 
-build: install
+build: install $(SITE_NAME)
+
+$(SITE_NAME):
+	git clone git@github.com:$(GITHUB_ACCOUNT)/$@.git
 
 install:
 	npm install
 
+# rsync -rtvuc ./dist/ ../deploy/
+# --exclude-from 'exclude-list.txt'
+copy:
+	rsync -rlpcgoDvzi \
+		--exclude '.git' \
+		--delete \
+		./dist/ ./$(SITE_NAME)/
+
+generate: nuxt-generate copy
 ########################################################################
 # NUXT
-generate:
+
+nuxt-generate:
 	$(NUXT_PATH) generate
