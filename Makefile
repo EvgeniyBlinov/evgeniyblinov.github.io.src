@@ -14,8 +14,8 @@ GITHUB_ACCOUNT = EvgeniyBlinov
 
 all: build
 
-$(DIRS):
-	mkdir -p $@
+#$(DIRS):
+	#mkdir -p $@
 
 build: install $(SITE_NAME)
 
@@ -39,3 +39,6 @@ generate: nuxt-generate copy
 
 nuxt-generate:
 	$(NUXT_PATH) generate
+
+dev:
+	npm run dev
