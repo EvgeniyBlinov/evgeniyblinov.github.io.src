@@ -6,6 +6,7 @@ SHELL:=/bin/bash
 NUXT_PATH = node_modules/.bin/nuxt
 SITE_NAME = evgeniyblinov.github.io
 GITHUB_ACCOUNT = EvgeniyBlinov
+SITE_DOMAIN = evgeniyblinov.ru
 
 #DIRS = bin
 
@@ -39,7 +40,9 @@ generate: nuxt-generate copy
 
 nuxt-generate:
 	NODE_ENV=production \
-		$(NUXT_PATH) generate
+		$(NUXT_PATH) generate && \
+	echo '$(SITE_DOMAIN)' > \
+		./dist/CNAME
 
 dev:
 	npm run dev
