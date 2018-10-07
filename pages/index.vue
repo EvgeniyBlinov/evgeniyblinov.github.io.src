@@ -1,4 +1,7 @@
 <style>
+.project-block__list li {
+    padding: 1em 0px 1em 0px;
+}
 .project-item__year {
     padding-right: 10px;
     font-weight: bold;
@@ -11,6 +14,7 @@ h3.center {
 }
 .text-right {
     text-right: left;
+    margin-left: -8em;
 }
 .contacts-block {
     font-weight: bold;
@@ -63,7 +67,6 @@ h3.center {
 
                     <div class="project-item__description"><a href="#" class="skill-element">Symfony2</a>, <a href="#" class="skill-element">MySQL</a>, <a href="#" class="skill-element">Redis</a>, <a href="#" class="skill-element">Sphinx</a></div>
 
-                    <a class="project-item__btn-show-preview" href="#">Показать скриншот</a>
                 </li>
                 <li class="item">
                     <label class="project-item__year">2015</label>
@@ -80,7 +83,6 @@ h3.center {
 
                     <div class="project-item__description"><a href="#" class="skill-element">Yii2</a>, <a href="#" class="skill-element">PostgreSQL</a>, <a href="#" class="skill-element">API</a>, <a href="#" class="skill-element">require.js</a>, <a href="#" class="skill-element">backbone.js</a>, <a href="#" class="skill-element">vagrant</a></div>
 
-                    <a class="project-item__btn-show-preview" href="#">Показать скриншот</a>
                 </li>
                 <li class="item">
                     <label class="project-item__year">2013-2014</label>
@@ -89,7 +91,6 @@ h3.center {
 
                     <div class="project-item__description"><a href="#" class="skill-element">ZF2</a>, <a href="#" class="skill-element">MySQL</a>, <a href="#" class="skill-element">Redis</a>, <a href="#" class="skill-element">require.js</a>, <a href="#" class="skill-element">backbone.js</a></div>
 
-                    <a class="project-item__btn-show-preview" href="#">Показать скриншот</a>
                 </li>
                 <li class="item">
                     <label class="project-item__year">2012-2013</label>
@@ -98,7 +99,6 @@ h3.center {
 
                     <div class="project-item__description"><a href="#" class="skill-element">yii1</a>, <a href="#" class="skill-element">MySQL</a></div>
 
-                    <a class="project-item__btn-show-preview" href="#">Показать скриншот</a>
                 </li>
                 <li class="item">
                     <label class="project-item__year">2012-2013</label>
@@ -107,7 +107,6 @@ h3.center {
 
                     <div class="project-item__description"><a href="#" class="skill-element">yii1</a>, <a href="#" class="skill-element">MySQL</a>, <a href="#" class="skill-element">backbone.js</a>, <a href="#" class="skill-element">require.js</a></div>
 
-                    <a class="project-item__btn-show-preview" href="#">Показать скриншот</a>
                 </li>
             </ul>
         </div>
