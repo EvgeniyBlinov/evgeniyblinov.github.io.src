@@ -2,6 +2,7 @@
 module.exports = {
   head: {
     title: 'Blinov Evgeniy',
+    description: 'Blinov Evgeniy - web developer.',
     //title: 'Blinov Evgeniy - web developer.',
     meta: [
       { charset: 'utf-8' },

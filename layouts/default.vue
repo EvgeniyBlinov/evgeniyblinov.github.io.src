@@ -271,11 +271,28 @@ body { height: 100%; }
 <script>
 import config from '../nuxt.config'
 import $ from 'jquery'
+import socialImage from '~/assets/ava_001.jpg'
 
 export default {
+  head () {
+    return {
+      meta: [
+        {
+            'og:title': config.head.title,
+            'og:description': config.head.description,
+            'og:image': this.prodBaseUrl + socialImage,
+            'og:image:type': 'image/jpeg',
+            'og:image:width': '1280',
+            'og:image:height': '853'
+
+        }
+      ]
+    }
+  },
   data() {
     return {
-      heading: config.head.title
+      heading: config.head.title,
+      prodBaseUrl: ''
     }
   },
   mounted() {
