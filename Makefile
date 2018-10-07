@@ -38,7 +38,8 @@ generate: nuxt-generate copy
 # NUXT
 
 nuxt-generate:
-	$(NUXT_PATH) generate
+	NODE_ENV=production \
+		$(NUXT_PATH) generate
 
 dev:
 	npm run dev

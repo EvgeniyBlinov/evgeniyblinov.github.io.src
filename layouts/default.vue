@@ -1,95 +1,271 @@
+<style>
+html { height: 100%; }
+body { height: 100%; }
+#__nuxt { height: 100%; }
+#__layout { height: 100%; }
+.sidebar1 {
+    background: #133F6B;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#133F6B, #202020);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#133F6B, #202020);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#133F6B, #202020);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#133F6B, #202020);
+    /* Standard syntax */
+    padding: 0px;
+    /*
+    min-height: 100%;
+    height: 100%;
+    */
+}
+.logo {
+    max-height: 130px;
+    text-align: center;
+}
+.logo>img {
+    margin-top: 30px;
+    padding: 3px;
+    border: 3px solid white;
+    border-radius: 50%;
+    height: 64px;
+    width: 80px;
+}
+.list {
+    color: #fff;
+    list-style: none;
+    padding-left: 0px;
+}
+.list::first-line {
+    color: rgba(255, 255, 255, 0.5);
+}
+.list> li, h5 {
+    padding: 5px 0px 5px 25px;
+    text-align: center;
+}
+.list> li> a, label>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+}
+.list>li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-left: 5px solid white;
+    color: white;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+</style>
+
 <template>
-  <div>
-    <a class="site-nav" href="/">
-      <h1 class="site-title">{{ heading }}</h1>
-    </a>
-    <nuxt/>
-  </div>
+
+    <div class="row h-100">
+        <!-- Sidebar BEGIN -->
+        <div class="col-md-3 col-sm-4 sidebar1">
+
+
+            <!--LOGO-->
+            <div class="logo">
+                    <img
+                        src="~assets/ava_001.jpg"
+                        class="img-responsive center-block"
+                        alt="Logo"
+                    >
+            </div>
+            <!--LOGO-->
+
+            <br>
+
+            <div class="left-navigation">
+
+                <ul class="list">
+                    <h5><strong>MAIN ACTIVITY</strong></h5>
+
+                    <li>
+                        <div class="tree-toggler">
+                            <label class="nav-header">IaC</label>
+                        </div>
+                        <ul class="list tree" style="display: none;">
+                            <li>
+                                <div class="tree-toggler">
+                                    <label class="nav-header"><a href="#">software installing</a></label>
+                                </div>
+                                <ul class="list tree" style="display: none;">
+                                    <li>
+                                        <div class="tree-toggler">
+                                            <label class="nav-header">RDBMS</label>
+                                        </div>
+                                        <ul class="list tree" style="display: none;">
+                                            <li><a href="#">MySQL</a></li>
+                                            <li><a href="#">PostgreSQL</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="tree-toggler">
+                                            <label class="nav-header">NoSQL</label>
+                                        </div>
+                                        <ul class="list tree" style="display: none;">
+                                            <li><a href="#">MongoDB</a></li>
+                                            <li><a href="#">Elasticsearch</a></li>
+                                            <li><a href="#">Redis</a></li>
+                                            <li><a href="#">Memcache</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="tree-toggler">
+                                            <label class="nav-header">MQ</label>
+                                        </div>
+                                        <ul class="list tree" style="display: none;">
+                                            <li><a href="#">RabbitMQ</a></li>
+                                            <li><a href="#">Kafka</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="tree-toggler">
+                                            <label class="nav-header">Service Discovery</label>
+                                        </div>
+                                        <ul class="list tree" style="display: none;">
+                                            <li><a href="#">Consul</a></li>
+                                            <li><a href="#">Etcd</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">dynamic environment</a></li>
+                            <li><a href="#">backups</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="tree-toggler">
+                            <label class="nav-header">Virtualization</label>
+                        </div>
+                        <ul class="list tree" style="display: none;">
+                            <li><a href="#">proxmox kvm</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="tree-toggler">
+                            <label class="nav-header">Containerization (docker)</label>
+                        </div>
+                        <ul class="list tree" style="display: none;">
+                            <li><a href="#">kubernetes</a></li>
+                            <li><a href="#">helm</a></li>
+                            <li><a href="#">docker-composer</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="tree-toggler">
+                            <label class="nav-header">DevOps Instruments</label>
+                        </div>
+                        <ul class="list tree" style="display: none;">
+                            <li>
+                                <div class="tree-toggler">
+                                    <label class="nav-header"><a href="#">project management systems</a></label>
+                                </div>
+                                <ul class="list tree" style="display: none;">
+                                    <li><a href="#">jira</a></li>
+                                    <li><a href="#">redmine</a></li>
+                                    <li><a href="#">gitlab</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <div class="tree-toggler">
+                                    <label class="nav-header"><a href="#">version-control management</a></label>
+                                </div>
+                                <ul class="list tree" style="display: none;">
+                                    <li><a href="#">gitolite</a></li>
+                                    <li><a href="#">gitlab</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <div class="tree-toggler">
+                                    <label class="nav-header"><a href="#">continuous integration</a></label>
+                                </div>
+                                <ul class="list tree" style="display: none;">
+                                    <li><a href="#">gitlab-ci</a></li>
+                                    <li><a href="#">gocd</a></li>
+                                    <li><a href="#">jenkins</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <div class="tree-toggler">
+                                    <label class="nav-header"><a href="#">continuous deployment</a></label>
+                                </div>
+                                <ul class="list tree" style="display: none;">
+                                    <li><a href="#">kubernetes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <div class="tree-toggler">
+                            <label class="nav-header">Backend programming</label>
+                        </div>
+                        <ul class="list tree" style="display: none;">
+                            <li>
+                                <div class="tree-toggler">
+                                    <label class="nav-header"><a href="#">PHP</a></label>
+                                </div>
+                                <ul class="list tree" style="display: none;">
+                                    <li><a href="#">frameworks</a></li>
+                                    <li><a href="#">API</a></li>
+                                    <li><a href="#">CRM</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!--<li class="divider"></li>-->
+
+                </ul>
+
+                <br>
+
+                <ul class="list">
+                    <h5><strong>ABOUT</strong></h5>
+                    <li>Contacts</li>
+                    <li>Tags</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Sidebar END -->
+
+        <div class="col-md-9 col-sm-8 main-content">
+            <nuxt/>
+        </div>
+    </div>
+
+
+
+
 </template>
+
+
 
 <script>
 import config from '../nuxt.config'
+import $ from 'jquery'
 
 export default {
   data() {
     return {
       heading: config.head.title
     }
+  },
+  mounted() {
+    $(document).ready(function () {
+        $('div.tree-toggler').click(function () {
+            $(this).parent().children('ul.tree').toggle(300);
+        });
+    });
   }
 }
 </script>
-
-<style>
-html
-{
-  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-*, *:before, *:after
-{
-  box-sizing: border-box;
-  margin: 0;
-}
-.button--green
-{
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-.button--green:hover
-{
-  color: #fff;
-  background-color: #3b8070;
-}
-.button--grey
-{
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-.button--grey:hover
-{
-  color: #fff;
-  background-color: #35495e;
-}
-
-.site-nav
-{
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  margin: 2rem 0;
-  text-decoration: none;
-  margin-bottom: 3rem
-}
-
-.site-title
-{
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 600;
-  font-size: 3.5rem;
-  color: #35495e;
-  letter-spacing: 1px;
-  margin-left: 1.5rem;
-}
-
-.site-logo
-{
-  width: 200px;
-  height: 200px
-}
-</style>
