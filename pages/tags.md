@@ -1,0 +1,86 @@
+- #### Base programming languages:
+    - [PHP][PHP-url]
+    - JS
+    - Python
+    - [Bash & (awk, sed, sqlite ...)][BASH-url]
+    - Go
+    - Delphi
+- #### Tools:
+    - [Ansible][ANSIBLE-url]
+    - Docker
+    - Kubernetes
+    - Rancher
+    - Helm
+    - Harbor
+    - ELK
+    - Monit
+    - Munin
+    - Snmp
+    - KVM
+    - Proxmox
+    - Vagrant
+    - Grunt
+    - gulp
+    - nodejs
+    - npm
+    - bower
+    - Nginx
+    - Apache
+    - Phpmyadmin
+    - Composer
+    - RabbitMQ
+    - Kafka
+    - Zookeeper
+    - GoCD
+    - Consul
+    - ClamAV
+    - Dovecot
+    - Exim
+    - Roundcube
+    - Spamassassin
+    - Proftpd
+    - Gotty
+    - Shellinabox
+    - Fail2ban
+    - Openssl
+    - Openvpn
+    - Sphinx
+- #### frameworks:
+    - SlimMVC
+    - Yii1/2
+    - [Symfony2][SYMFONY-url]
+    - ZF1/2
+    - CakePHP
+    - CodeIgniter
+    - Laravel
+    - express.js
+    - openresty
+- #### Databases:
+    - MySQL
+    - MariaDB
+    - PostgreSQL
+    - MongoDB
+    - Redis
+    - Elasticsearch
+- #### API integration:
+    - Slack
+    - Twilio
+    - Stripe
+    - Google
+    - AWS
+    - Azure
+    - Geocodio
+    - Mailgun
+- #### Can understand:
+    - C
+    - C++
+    - lua
+    - Perl
+    - Java
+    - Ruby
+    - D lang
+
+[PHP-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=php
+[BASH-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=shell
+[ANSIBLE-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&q=ansible
+[SYMFONY-url]: https://github.com/EvgeniyBlinov/RefrigeratorBundle
