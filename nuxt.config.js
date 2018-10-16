@@ -1,5 +1,9 @@
 //  vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2
 module.exports = {
+  server: {
+    port: 3000, // default: 3000
+    host: '0.0.0.0', // default: localhost
+  },
   head: {
     title: 'Blinov Evgeniy',
     description: 'Blinov Evgeniy - web developer.',
@@ -20,6 +24,7 @@ module.exports = {
     ]
   },
   modules: [
+    '@nuxtjs/markdownit',
     'bootstrap-vue/nuxt',
     ['nuxt-fontawesome', {
       component: 'fa'

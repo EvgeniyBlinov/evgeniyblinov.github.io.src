@@ -20,7 +20,7 @@ body { height: 100%; }
     max-height: 130px;
     text-align: center;
 }
-.logo>img {
+.logo img {
     margin-top: 30px;
     padding: 3px;
     border: 3px solid white;
@@ -47,6 +47,10 @@ body { height: 100%; }
 .list> li> a, label>a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+.list> li> a.noroute, label>a.noroute {
     pointer-events: none;
 }
 .list>li:hover {
@@ -78,11 +82,13 @@ body { height: 100%; }
             <div class="sidebar-content sticky-top sticky-offset">
                 <!--LOGO-->
                 <div class="logo">
+                    <nuxt-link to="/">
                         <img
                             src="~assets/ava-64x64.jpg"
                             class="img-responsive center-block"
                             alt="Logo"
                         >
+                    </nuxt-link>
                 </div>
                 <!--LOGO-->
 
@@ -102,7 +108,7 @@ body { height: 100%; }
                             <ul class="list tree" style="display: none;">
                                 <li>
                                     <div class="tree-toggler">
-                                        <label class="nav-header"><a href="#">software installing</a></label>
+                                        <label class="nav-header"><a class="noroute" href="#">software installing</a></label>
                                     </div>
                                     <ul class="list tree" style="display: none;">
                                         <li>
@@ -110,8 +116,8 @@ body { height: 100%; }
                                                 <label class="nav-header">RDBMS</label>
                                             </div>
                                             <ul class="list tree" style="display: none;">
-                                                <li><a href="#">MySQL</a></li>
-                                                <li><a href="#">PostgreSQL</a></li>
+                                                <li><a class="noroute" href="#">MySQL</a></li>
+                                                <li><a class="noroute" href="#">PostgreSQL</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -119,10 +125,10 @@ body { height: 100%; }
                                                 <label class="nav-header">NoSQL</label>
                                             </div>
                                             <ul class="list tree" style="display: none;">
-                                                <li><a href="#">MongoDB</a></li>
-                                                <li><a href="#">Elasticsearch</a></li>
-                                                <li><a href="#">Redis</a></li>
-                                                <li><a href="#">Memcache</a></li>
+                                                <li><a class="noroute" href="#">MongoDB</a></li>
+                                                <li><a class="noroute" href="#">Elasticsearch</a></li>
+                                                <li><a class="noroute" href="#">Redis</a></li>
+                                                <li><a class="noroute" href="#">Memcache</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -130,8 +136,8 @@ body { height: 100%; }
                                                 <label class="nav-header">MQ</label>
                                             </div>
                                             <ul class="list tree" style="display: none;">
-                                                <li><a href="#">RabbitMQ</a></li>
-                                                <li><a href="#">Kafka</a></li>
+                                                <li><a class="noroute" href="#">RabbitMQ</a></li>
+                                                <li><a class="noroute" href="#">Kafka</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -139,14 +145,14 @@ body { height: 100%; }
                                                 <label class="nav-header">Service Discovery</label>
                                             </div>
                                             <ul class="list tree" style="display: none;">
-                                                <li><a href="#">Consul</a></li>
-                                                <li><a href="#">Etcd</a></li>
+                                                <li><a class="noroute" href="#">Consul</a></li>
+                                                <li><a class="noroute" href="#">Etcd</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="#">dynamic environment</a></li>
-                                <li><a href="#">backups</a></li>
+                                <li><a class="noroute" href="#">dynamic environment</a></li>
+                                <li><a class="noroute" href="#">backups</a></li>
                             </ul>
                         </li>
 
@@ -155,7 +161,7 @@ body { height: 100%; }
                                 <label class="nav-header">Virtualization</label>
                             </div>
                             <ul class="list tree" style="display: none;">
-                                <li><a href="#">proxmox kvm</a></li>
+                                <li><a class="noroute" href="#">proxmox kvm</a></li>
                             </ul>
                         </li>
 
@@ -164,9 +170,9 @@ body { height: 100%; }
                                 <label class="nav-header">Containerization (docker)</label>
                             </div>
                             <ul class="list tree" style="display: none;">
-                                <li><a href="#">kubernetes</a></li>
-                                <li><a href="#">helm</a></li>
-                                <li><a href="#">docker-composer</a></li>
+                                <li><a class="noroute" href="#">kubernetes</a></li>
+                                <li><a class="noroute" href="#">helm</a></li>
+                                <li><a class="noroute" href="#">docker-composer</a></li>
                             </ul>
                         </li>
 
@@ -177,42 +183,42 @@ body { height: 100%; }
                             <ul class="list tree" style="display: none;">
                                 <li>
                                     <div class="tree-toggler">
-                                        <label class="nav-header"><a href="#">project management systems</a></label>
+                                        <label class="nav-header"><a class="noroute" href="#">project management systems</a></label>
                                     </div>
                                     <ul class="list tree" style="display: none;">
-                                        <li><a href="#">jira</a></li>
-                                        <li><a href="#">redmine</a></li>
-                                        <li><a href="#">gitlab</a></li>
+                                        <li><a class="noroute" href="#">jira</a></li>
+                                        <li><a class="noroute" href="#">redmine</a></li>
+                                        <li><a class="noroute" href="#">gitlab</a></li>
                                     </ul>
                                 </li>
 
                                 <li>
                                     <div class="tree-toggler">
-                                        <label class="nav-header"><a href="#">version-control management</a></label>
+                                        <label class="nav-header"><a class="noroute" href="#">version-control management</a></label>
                                     </div>
                                     <ul class="list tree" style="display: none;">
-                                        <li><a href="#">gitolite</a></li>
-                                        <li><a href="#">gitlab</a></li>
+                                        <li><a class="noroute" href="#">gitolite</a></li>
+                                        <li><a class="noroute" href="#">gitlab</a></li>
                                     </ul>
                                 </li>
 
                                 <li>
                                     <div class="tree-toggler">
-                                        <label class="nav-header"><a href="#">continuous integration</a></label>
+                                        <label class="nav-header"><a class="noroute" href="#">continuous integration</a></label>
                                     </div>
                                     <ul class="list tree" style="display: none;">
-                                        <li><a href="#">gitlab-ci</a></li>
-                                        <li><a href="#">gocd</a></li>
-                                        <li><a href="#">jenkins</a></li>
+                                        <li><a class="noroute" href="#">gitlab-ci</a></li>
+                                        <li><a class="noroute" href="#">gocd</a></li>
+                                        <li><a class="noroute" href="#">jenkins</a></li>
                                     </ul>
                                 </li>
 
                                 <li>
                                     <div class="tree-toggler">
-                                        <label class="nav-header"><a href="#">continuous deployment</a></label>
+                                        <label class="nav-header"><a class="noroute" href="#">continuous deployment</a></label>
                                     </div>
                                     <ul class="list tree" style="display: none;">
-                                        <li><a href="#">kubernetes</a></li>
+                                        <li><a class="noroute" href="#">kubernetes</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -225,12 +231,12 @@ body { height: 100%; }
                             <ul class="list tree" style="display: none;">
                                 <li>
                                     <div class="tree-toggler">
-                                        <label class="nav-header"><a href="#">PHP</a></label>
+                                        <label class="nav-header"><a class="noroute" href="#">PHP</a></label>
                                     </div>
                                     <ul class="list tree" style="display: none;">
-                                        <li><a href="#">frameworks</a></li>
-                                        <li><a href="#">API</a></li>
-                                        <li><a href="#">CRM</a></li>
+                                        <li><a class="noroute" href="#">frameworks</a></li>
+                                        <li><a class="noroute" href="#">API</a></li>
+                                        <li><a class="noroute" href="#">CRM</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -246,8 +252,9 @@ body { height: 100%; }
                         <h5 class="text-center">
                             <strong>ABOUT</strong>
                         </h5>
-                        <li>Contacts</li>
-                        <li>Tags</li>
+                        <li><nuxt-link to="/">Last projects</nuxt-link></li>
+                        <li><nuxt-link to="/contacts">Contacts</nuxt-link></li>
+                        <li><nuxt-link to="/tags">Tags</nuxt-link></li>
                         <li class="divider"></li>
                     </ul>
                         <br>
@@ -278,13 +285,36 @@ export default {
     return {
       meta: [
         {
-            'og:title': config.head.title,
-            'og:description': config.head.description,
-            'og:image': this.prodBaseUrl + socialImage,
-            'og:image:type': 'image/jpeg',
-            'og:image:width': '1280',
-            'og:image:height': '853'
-
+            'property': 'og:title',
+            'content': config.head.title
+        },
+        {
+            'property': 'og:description',
+            'content': config.head.description
+        },
+        {
+            'property': 'og:image',
+            'content': this.prodBaseUrl + socialImage
+        },
+        {
+            'property': 'og:image:type',
+            'content': 'image/jpeg'
+        },
+        {
+            'property': 'og:image:width',
+            'content': '1280'
+        },
+        {
+            'property': 'og:image:height',
+            'content': '853'
+        },
+        {
+            'property': 'og:type',
+            'content': 'website'
+        },
+        {
+            'property': 'og:url',
+            'content': 'https://evgeniyblinov.ru/'
         }
       ]
     }
