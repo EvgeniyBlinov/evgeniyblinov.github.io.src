@@ -71,6 +71,13 @@ body { height: 100%; }
 .main-content {
     margin-top: 30px;
 }
+body {
+    background-image: url(~assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 </style>
 
 <template>
