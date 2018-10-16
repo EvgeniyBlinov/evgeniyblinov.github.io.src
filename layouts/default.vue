@@ -1,6 +1,17 @@
 <style>
+/*
+* { border: 1px solid #f00 !important; }
+*/
 html { height: 100%; }
-body { height: 100%; }
+body {
+    height: 100%;
+    background-image: url(~assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 #__nuxt { height: 100%; }
 #__layout { height: 100%; }
 .sidebar1 {
@@ -71,18 +82,17 @@ body { height: 100%; }
 .main-content {
     margin-top: 30px;
 }
-body {
-    background-image: url(~assets/bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+.margin-right-0 {
+    margin-right: 0 !important;
+}
+.margin-right-2em {
+    margin-right: 2em !important;
 }
 </style>
 
 <template>
 
-    <div class="row h-100">
+    <div class="row h-100 margin-right-0">
         <!-- Sidebar BEGIN -->
         <div class="col-md-3 col-sm-4 sidebar1 sidebar-expanded d-md-block">
 
@@ -103,6 +113,7 @@ body {
 
                 <div class="left-navigation">
 
+                    <!--
                     <ul class="list">
                         <h5 class="text-center">
                             <strong>MAIN ACTIVITY</strong>
@@ -252,12 +263,13 @@ body {
                         <!--<li class="divider"></li>-->
 
                     </ul>
+                    -->
 
                     <br>
 
                     <ul class="list">
                         <h5 class="text-center">
-                            <strong>ABOUT</strong>
+                            <strong class="margin-right-2em">ABOUT</strong>
                         </h5>
                         <li><nuxt-link to="/">Last projects</nuxt-link></li>
                         <li><nuxt-link to="/contacts">Contacts</nuxt-link></li>
