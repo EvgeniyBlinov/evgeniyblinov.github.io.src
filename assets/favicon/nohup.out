@@ -1,0 +1,6 @@
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 25903, Gecko_IOThread] WARNING: pipe error (142): Соединение разорвано другой стороной: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 25903, Gecko_IOThread] WARNING: pipe error (49): Соединение разорвано другой стороной: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 25903, Gecko_IOThread] WARNING: pipe error (92): Соединение разорвано другой стороной: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
