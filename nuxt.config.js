@@ -29,5 +29,8 @@ module.exports = {
     ['nuxt-fontawesome', {
       component: 'fa'
     }]
-  ]
+  ],
+  generate: {
+    fallback: "404.html"
+  }
 }
