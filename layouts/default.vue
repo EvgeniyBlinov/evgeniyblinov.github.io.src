@@ -60,6 +60,8 @@ body {
     color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
+    font-size: 1.5rem;
+    margin-left: 4.5rem;
 }
 .list> li> a.noroute, label>a.noroute {
     pointer-events: none;
