@@ -1,4 +1,5 @@
 <style>
+/*******************             contacts        ****************************/
 .project-block__list li {
     padding: 1em 0px 1em 0px;
 }
@@ -19,6 +20,7 @@ h3.center {
 .contacts-block {
     font-weight: bold;
 }
+/*******************             contacts        ****************************/
 
 /*******************             projects        ****************************/
 .md-content > section > ul > li {
@@ -69,47 +71,19 @@ h3.center {
 
         </div>
 
-        <div class="center">
-            <h3 class="center">
-                <strong>
-                    CONTACTS
-                </strong>
-            </h3>
-            <ul class="contacts-block">
-                <li class="row">
-                    <div class="col text-right">skype</div>:
-                    <div class="col text-left">
-                        <a href="skype:evgeniy_blinov?call">evgeniy_blinov</a>
-                    </div>
-                </li>
-                <li class="row">
-                    <div class="col text-right">email</div>:
-                    <div class="col text-left">
-                        <a href="mailto:evgeniy_blinov@mail.ru">evgeniy_blinov@mail.ru</a>
-                    </div>
-                </li>
-                <li class="row">
-                    <div class="col text-right">github</div>:
-                    <div class="col text-left">
-                        <a href="https://github.com/EvgeniyBlinov/">https://github.com/EvgeniyBlinov/</a>
-                    </div>
-                </li>
-                <li class="row">
-                    <div class="col text-right">linkedin</div>:
-                    <div class="col text-left">
-                        <a href="https://www.linkedin.com/in/blinovevgeniy/">https://www.linkedin.com/in/blinovevgeniy/</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+        <app-contacts />
 
     </div>
 </template>
 
 <script>
   import projects from './projects.md'
+  import AppContacts from "./_contacts/contacts"
 
   export default {
+    components: {
+        AppContacts
+    },
     computed: {
       projects() {
         return projects
