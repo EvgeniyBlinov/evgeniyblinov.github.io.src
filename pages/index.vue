@@ -120,7 +120,9 @@ h3.center {
             <ul class="contacts-block">
                 <li class="row">
                     <div class="col text-right">skype</div>:
-                    <div class="col text-left">evgeniy_blinov</div>
+                    <div class="col text-left">
+                        <a href="skype:evgeniy_blinov?call">evgeniy_blinov</a>
+                    </div>
                 </li>
                 <li class="row">
                     <div class="col text-right">email</div>:
@@ -132,6 +134,12 @@ h3.center {
                     <div class="col text-right">github</div>:
                     <div class="col text-left">
                         <a href="https://github.com/EvgeniyBlinov/">https://github.com/EvgeniyBlinov/</a>
+                    </div>
+                </li>
+                <li class="row">
+                    <div class="col text-right">linkedin</div>:
+                    <div class="col text-left">
+                        <a href="https://www.linkedin.com/in/blinovevgeniy/">https://www.linkedin.com/in/blinovevgeniy/</a>
                     </div>
                 </li>
             </ul>
