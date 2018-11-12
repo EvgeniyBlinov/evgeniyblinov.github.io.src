@@ -19,6 +19,29 @@ h3.center {
 .contacts-block {
     font-weight: bold;
 }
+
+/*******************             projects        ****************************/
+.md-content > section > ul > li {
+    margin-bottom: 1rem;
+}
+.md-content > section > ul > li > p {
+    margin-bottom: 0;
+}
+.md-content > section > ul > li > h6 ~ p ~ p {
+    display: inline;
+}
+.md-content > section > ul > li > h6 ~ ul {
+    list-style-type: none;
+    display: inline;
+    padding-left: 0;
+}
+.md-content > section > ul > li > h6 ~ ul > li {
+    display: inline-block;
+}
+.md-content > section > ul > li > h6 ~ ul > li::after {
+    content: ",";
+}
+/*******************             projects        ****************************/
 </style>
 
 <template>
@@ -42,73 +65,8 @@ h3.center {
                 </strong>
             </h3>
 
+            <div class="md-content" v-html="projects"></div>
 
-            <ul class="project-block__list">
-                <li class="item">
-                    <label class="project-item__year">2017</label>
-                    <label>NDA</label>
-                    <div class="project-item__description">Linux server management and monitoring dashboard.</div>
-
-                    <div class="project-item__description"><a href="#" class="skill-element">python</a>, <a href="#" class="skill-element">ansible</a>, <a href="#" class="skill-element">docker-compose</a>, <a href="#" class="skill-element">DevOps</a>, <a href="#" class="skill-element">system administration</a></div>
-
-                </li>
-                <li class="item">
-                    <label class="project-item__year">2016</label>
-                    <a href="http://ifexo.com/" target="_blank">http://ifexo.com/</a>
-                    <div class="project-item__description">Restaurant’s delivery statistic service.</div>
-
-                    <div class="project-item__description"><a href="#" class="skill-element">PHP</a>, <a href="#" class="skill-element">SQL</a>, <a href="#" class="skill-element">Redis</a>, <a href="#" class="skill-element">REST API</a>, <a href="#" class="skill-element">OCR</a>, <a href="#" class="skill-element">vagrant</a>, <a href="#" class="skill-element">gmail api</a>, <a href="#" class="skill-element">twilio api</a>, <a href="#" class="skill-element">stripe api</a></div>
-
-                </li>
-                <li class="item">
-                    <label class="project-item__year">2014-2015</label>
-                    <a href="http://ska.ru/" target="_blank">http://ska.ru/</a>
-                    <div class="project-item__description">The official website of the hockey club.</div>
-
-                    <div class="project-item__description"><a href="#" class="skill-element">Symfony2</a>, <a href="#" class="skill-element">MySQL</a>, <a href="#" class="skill-element">Redis</a>, <a href="#" class="skill-element">Sphinx</a></div>
-
-                </li>
-                <li class="item">
-                    <label class="project-item__year">2015</label>
-                    <a href="http://britishbarbers.com/" target="_blank">http://britishbarbers.com/</a>
-                    <div class="project-item__description">The official website of the British Hairdressing Association.</div>
-
-                    <div class="project-item__description"><a href="#" class="skill-element">Yii2</a>, <a href="#" class="skill-element">MySQL</a></div>
-
-                </li>
-                <li class="item">
-                    <label class="project-item__year">2015</label>
-                    <a href="http://alvioneurope.ru/" target="_blank">http://alvioneurope.ru/</a>
-                    <div class="project-item__description">The official website of the company «Alvion Europe».</div>
-
-                    <div class="project-item__description"><a href="#" class="skill-element">Yii2</a>, <a href="#" class="skill-element">PostgreSQL</a>, <a href="#" class="skill-element">API</a>, <a href="#" class="skill-element">require.js</a>, <a href="#" class="skill-element">backbone.js</a>, <a href="#" class="skill-element">vagrant</a></div>
-
-                </li>
-                <li class="item">
-                    <label class="project-item__year">2013-2014</label>
-                    <a href="http://antitreningi.ru/" target="_blank">http://antitreningi.ru/</a>
-                    <div class="project-item__description">Online learning service.</div>
-
-                    <div class="project-item__description"><a href="#" class="skill-element">ZF2</a>, <a href="#" class="skill-element">MySQL</a>, <a href="#" class="skill-element">Redis</a>, <a href="#" class="skill-element">require.js</a>, <a href="#" class="skill-element">backbone.js</a></div>
-
-                </li>
-                <li class="item">
-                    <label class="project-item__year">2012-2013</label>
-                    <a href="http://5-soft.com/en/white/work/view?id=57" target="_blank">http://i-compass.com.ua/</a>
-                    <div class="project-item__description">Job marketplace for tutors, translators, language courses companies and travel agencies.</div>
-
-                    <div class="project-item__description"><a href="#" class="skill-element">yii1</a>, <a href="#" class="skill-element">MySQL</a></div>
-
-                </li>
-                <li class="item">
-                    <label class="project-item__year">2012-2013</label>
-                    <a href="http://5-soft.com/en/white/work/view?id=54" target="_blank">fitbook</a>
-                    <div class="project-item__description">SaaS for creating individual fitness training programs.</div>
-
-                    <div class="project-item__description"><a href="#" class="skill-element">yii1</a>, <a href="#" class="skill-element">MySQL</a>, <a href="#" class="skill-element">backbone.js</a>, <a href="#" class="skill-element">require.js</a></div>
-
-                </li>
-            </ul>
         </div>
 
         <div class="center">
@@ -147,3 +105,15 @@ h3.center {
 
     </div>
 </template>
+
+<script>
+  import projects from './projects.md'
+
+  export default {
+    computed: {
+      projects() {
+        return projects
+      }
+    }
+  }
+</script>
