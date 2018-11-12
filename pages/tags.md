@@ -46,8 +46,8 @@
     - Openvpn
     - Sphinx
 - #### frameworks:
-    - SlimMVC
-    - Yii1/2
+    - [SlimMVC][SLIM-url]
+    - [Yii1/2][YII2-url]
     - [Symfony2][SYMFONY-url]
     - ZF1/2
     - CakePHP
@@ -84,3 +84,5 @@
 [BASH-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=shell
 [ANSIBLE-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&q=ansible
 [SYMFONY-url]: https://github.com/EvgeniyBlinov/RefrigeratorBundle
+[YII2-url]: https://github.com/EvgeniyBlinov/yii2-social
+[SLIM-url]: https://github.com/EvgeniyBlinov/slim-advanced
