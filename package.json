@@ -11,8 +11,8 @@
     "dev-debug": "node --inspect node_modules/.bin/nuxt"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.4",
-    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "@fortawesome/free-brands-svg-icons": "^5.5.0",
+    "@fortawesome/free-solid-svg-icons": "^5.5.0",
     "@nuxtjs/markdownit": "^1.2.2",
     "bootstrap-vue": "^2.0.0-rc.11",
     "jquery": "^3.3.1",

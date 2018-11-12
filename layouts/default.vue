@@ -75,7 +75,7 @@ body {
 .sticky-offset {
     top: 56px;
 }
-.text-cener {
+.text-cetner {
     text-align: center;
 }
 
@@ -88,6 +88,25 @@ body {
 .margin-right-2em {
     margin-right: 2em !important;
 }
+
+/*******************             contact-icons        ****************************/
+.contact-icons {
+  list-style-type: none;
+}
+.contact-icons > li {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.rotateble-icon {
+  color: #e5f0f6;
+  text-decoration: none;
+  transition: all 0.7s ease-in-out 0s;
+  display: inline-block;
+}
+/*******************             contact-icons        ****************************/
 </style>
 
 <template>
@@ -276,7 +295,33 @@ body {
                         <li><nuxt-link to="/tags">Tags</nuxt-link></li>
                         <li class="divider"></li>
                     </ul>
-                        <br>
+
+                    <br>
+
+                    <div class="center text-center">
+                      <ul class="contact-icons">
+                          <li>
+                              <a v-bind:href="'skype:' + skype + '?call'" class="rotateble-icon">
+                                <fa :icon="fab.faSkype" />
+                              </a>
+                          </li>
+                          <li>
+                              <a v-bind:href="'mailto:' + email" class="rotateble-icon">
+                                <fa :icon="fas.faEnvelope" />
+                              </a>
+                          </li>
+                          <li>
+                            <a v-bind:href="github" class="rotateble-icon">
+                              <fa :icon="fab.faGithub" />
+                            </a>
+                          </li>
+                          <li>
+                            <a v-bind:href="linkedin" class="rotateble-icon">
+                              <fa :icon="fab.faLinkedin" />
+                            </a>
+                          </li>
+                      </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -294,10 +339,16 @@ body {
 
 
 
+
+
 <script>
+
 import config from '../nuxt.config'
 import $ from 'jquery'
 import socialImage from '~/assets/ava_001.jpg'
+
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 
 export default {
   head () {
@@ -341,7 +392,11 @@ export default {
   data() {
     return {
       heading: config.head.title,
-      prodBaseUrl: ''
+      prodBaseUrl: '',
+      "skype": "evgeniy_blinov",
+      "email": "evgeniy_blinov@mail.ru",
+      "github": "https://github.com/EvgeniyBlinov/",
+      "linkedin": "https://www.linkedin.com/in/blinovevgeniy/"
     }
   },
   mounted() {
@@ -350,6 +405,14 @@ export default {
             $(this).parent().children('ul.tree').toggle(300);
         });
     });
-  }
+  },
+  computed: {
+    fas () {
+      return fas
+    },
+    fab () {
+      return fab
+    }
+  },
 }
 </script>

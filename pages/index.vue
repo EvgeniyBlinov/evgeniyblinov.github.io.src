@@ -1,27 +1,4 @@
 <style>
-/*******************             contacts        ****************************/
-.project-block__list li {
-    padding: 1em 0px 1em 0px;
-}
-.project-item__year {
-    padding-right: 10px;
-    font-weight: bold;
-}
-h3.center {
-    text-align: center;
-}
-.text-left {
-    text-align: left;
-}
-.text-right {
-    text-right: left;
-    margin-left: -8em;
-}
-.contacts-block {
-    font-weight: bold;
-}
-/*******************             contacts        ****************************/
-
 /*******************             projects        ****************************/
 .md-content > section > ul > li {
     margin-bottom: 1rem;
