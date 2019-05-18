@@ -1,4 +1,33 @@
 [//]: <> (vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2)
+- ###### **2018-2019** [https://www.vseinstrumenti.ru/](https://www.vseinstrumenti.ru/)
+  Building IaC for monoliths to microservices transformation.
+
+  **_tags_**:
+  - DevOps
+  - IaC
+  - CI
+  - CD
+  - docker
+  - ansible
+  - kubernetes
+  - harbor
+  - helm
+  - vault
+  - Consul
+  - Prometheus
+  - Loghouse
+  - Clickhouse
+  - Fluentd
+  - NATS Streaming
+  - Gitlab
+  - DNS
+  - PKI
+  - Python
+  - Bash
+  - System Administration
+  - PHP Dev
+  - auto generated documentation CI/CD
+
 - ###### **2018** [https://evgeniyblinov.ru/](https://evgeniyblinov.ru/)
   Remote work.
 
