@@ -395,10 +395,10 @@ export default {
     return {
       heading: config.head.title,
       prodBaseUrl: '',
-      "skype": "evgeniy_blinov",
-      "email": "evgeniy_blinov@mail.ru",
-      "github": "https://github.com/EvgeniyBlinov/",
-      "linkedin": "https://www.linkedin.com/in/blinovevgeniy/"
+      "skype":    config.data.skype,
+      "email":    config.data.email,
+      "github":   config.data.github,
+      "linkedin": config.data.linkedin
     }
   },
   mounted() {

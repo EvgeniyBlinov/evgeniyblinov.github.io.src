@@ -4,6 +4,12 @@ module.exports = {
     port: 3000, // default: 3000
     host: '0.0.0.0', // default: localhost
   },
+  data: {
+    "skype": "evgeniy_blinov",
+    "email": "evgeniy_blinov@mail.ru",
+    "github": "https://github.com/EvgeniyBlinov/",
+    "linkedin": "https://www.linkedin.com/in/blinovevgeniy/"
+  },
   head: {
     title: 'Blinov Evgeniy',
     description: 'Blinov Evgeniy - web developer.',
