@@ -34,7 +34,18 @@ module.exports = {
     'bootstrap-vue/nuxt',
     ['nuxt-fontawesome', {
       component: 'fa'
-    }]
+    }],
+    [
+      '@nuxtjs/yandex-metrika',
+      {
+        id: 53815306,
+        webvisor: true,
+        clickmap:true,
+        // useCDN:false,
+        trackLinks:true,
+        accurateTrackBounce:true,
+      }
+    ]
   ],
   generate: {
     fallback: "404.html"
