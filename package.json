@@ -13,6 +13,7 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.5.0",
     "@fortawesome/free-solid-svg-icons": "^5.5.0",
+    "@nuxtjs/google-tag-manager": "^2.2.0",
     "@nuxtjs/markdownit": "^1.2.2",
     "@nuxtjs/yandex-metrika": "^0.1.1",
     "bootstrap-vue": "^2.0.0-rc.11",

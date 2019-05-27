@@ -45,6 +45,22 @@ module.exports = {
         trackLinks:true,
         accurateTrackBounce:true,
       }
+    ],
+    [
+      '@nuxtjs/google-tag-manager',
+      {
+        id: 'UA-140893449-1',
+        //layer: 'dataLayer',
+        //pageTracking: false,
+        //dev: true, // set to false to disable in dev mode
+        //query: {
+          //// query params...
+          //gtm_auth:        '...',
+          //gtm_preview:     '...',
+          //gtm_cookies_win: '...'
+        //},
+        //scriptURL: '//example.com'
+      }
     ]
   ],
   generate: {
