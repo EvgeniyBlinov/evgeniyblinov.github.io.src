@@ -19,13 +19,30 @@ h3.center {
 .contacts-block {
     font-weight: bold;
 }
-.md-content> section {
+#tags .md-content> section {
     padding-left: 1em;
+    font-weight: bold;
+}
+.md-content> section>ul {
+    list-style: none;
+}
+#tags .md-content h4 {
+    font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+    #tags .md-content> section>ul {
+        -moz-column-count: 4;
+        -moz-column-gap: 20px;
+        -webkit-column-count: 4;
+        -webkit-column-gap: 20px;
+        column-count: 4;
+        column-gap: 20px;
+    }
 }
 </style>
 
 <template>
-    <div>
+    <div :id="$nuxt.$route.name">
         <div class="center">
             <h3 class="center">
                 <strong>

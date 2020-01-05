@@ -47,13 +47,13 @@ body {
 .list::first-line {
     color: rgba(255, 255, 255, 0.5);
 }
-.list> li, h5 {
-    padding: 5px 0px 0px 25px;
-    margin-left: 10px;
+.list> li {
+    text-align: center;
+    list-style: none;
 }
 .list> li, h5 {
-    padding: 5px 0px 5px 25px;
-    margin-left: 10px;
+    padding: 5px 0px 0px 0px;
+    margin-left: 0px;
 }
 .list> li> a, label>a {
     text-decoration: none;
@@ -61,7 +61,8 @@ body {
     width: 100%;
     height: 100%;
     font-size: 1.5rem;
-    margin-left: 4.5rem;
+    font-weight: bold;
+    margin-left: 0;
 }
 .list> li> a.noroute, label>a.noroute {
     pointer-events: none;
@@ -71,8 +72,8 @@ body {
     border-left: 5px solid white;
     color: white;
     font-weight: bolder;
-    padding-left: 20px;
-    margin-left: 10px;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 .sticky-offset {
     top: 56px;
@@ -91,6 +92,9 @@ body {
     margin-right: 2em !important;
 }
 
+.pa-bot-3em {
+    padding-bottom: 3em;
+}
 /*******************             contact-icons        ****************************/
 .contact-icons {
   list-style-type: none;
@@ -289,9 +293,6 @@ body {
                     <br>
 
                     <ul class="list">
-                        <h5 class="text-center">
-                            <strong class="margin-right-2em">ABOUT</strong>
-                        </h5>
                         <li><nuxt-link to="/">Last projects</nuxt-link></li>
                         <li><nuxt-link to="/contacts">Contacts</nuxt-link></li>
                         <li><nuxt-link to="/tags">Tags</nuxt-link></li>
@@ -300,11 +301,16 @@ body {
 
                     <br>
 
-                    <div class="center text-center">
+                    <div class="center text-center pa-bot-3em">
                       <ul class="contact-icons">
+                          <!--<li>-->
+                              <!--<a v-bind:href="'skype:' + skype + '?call'" class="rotateble-icon">-->
+                                <!--<fa :icon="fab.faSkype" />-->
+                              <!--</a>-->
+                          <!--</li>-->
                           <li>
-                              <a v-bind:href="'skype:' + skype + '?call'" class="rotateble-icon">
-                                <fa :icon="fab.faSkype" />
+                              <a v-bind:href="telegram" class="rotateble-icon">
+                                <fa :icon="fab.faTelegram" />
                               </a>
                           </li>
                           <li>
@@ -396,6 +402,7 @@ export default {
       heading: config.head.title,
       prodBaseUrl: '',
       "skype":    config.data.skype,
+      "telegram": config.data.telegram,
       "email":    config.data.email,
       "github":   config.data.github,
       "linkedin": config.data.linkedin

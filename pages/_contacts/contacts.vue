@@ -15,6 +15,8 @@ h3.center {
 .text-right {
     text-right: left;
     margin-left: -8em;
+    display: inline;
+    padding: 0px 0px 0px 0px;
 }
 .contacts-block {
     font-weight: bold;
@@ -30,9 +32,9 @@ h3.center {
         </h3>
         <ul class="contacts-block">
             <li class="row">
-                <div class="col text-right">skype</div>:
+                <div class="col text-right">telegram</div>:
                 <div class="col text-left">
-                    <a v-bind:href="'skype:' + skype + '?call'">{{ skype }}</a>
+                    <a v-bind:href="telegram">{{ telegram }}</a>
                 </div>
             </li>
             <li class="row">
@@ -64,6 +66,7 @@ export default {
     data() {
         return {
             "skype":    config.data.skype,
+            "telegram": config.data.telegram,
             "email":    config.data.email,
             "github":   config.data.github,
             "linkedin": config.data.linkedin

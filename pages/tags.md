@@ -9,6 +9,7 @@
     - Docker
     - Kubernetes
     - [Vault][VAULT-url]
+    - Istio
     - Rancher
     - Helm
     - Harbor
@@ -24,6 +25,7 @@
     - Proxmox
     - Vagrant
     - Gitlab
+    - Jenkins
     - Nginx
     - Apache
     - Phpmyadmin

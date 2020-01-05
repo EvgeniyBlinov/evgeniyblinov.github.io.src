@@ -2,9 +2,11 @@
 /*******************             projects        ****************************/
 .md-content > section > ul > li {
     margin-bottom: 1rem;
+    padding: 1em 0px 0px 0px;
 }
 .md-content > section > ul > li > p {
     margin-bottom: 0;
+    font-weight: bold;
 }
 .md-content > section > ul > li > h6 ~ p ~ p {
     display: inline;
@@ -24,7 +26,7 @@
 </style>
 
 <template>
-    <div>
+    <div :id="$nuxt.$route.name">
     <!--<pre>-->
         <!--Base programming languages: PHP; JS; Python; SQL; Delphi; Bash & (awk, sed,-->
         <!--sqlite ...); Go;-->

@@ -6,6 +6,7 @@ module.exports = {
   },
   data: {
     "skype": "evgeniy_blinov",
+    "telegram": "https://t.me/cent_ru",
     "email": "evgeniy_blinov@mail.ru",
     "github": "https://github.com/EvgeniyBlinov/",
     "linkedin": "https://www.linkedin.com/in/blinovevgeniy/"
