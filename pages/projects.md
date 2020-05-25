@@ -1,4 +1,23 @@
 [//]: <> (vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2)
+- ###### **2019-2020** [https://domclick.ru](https://domclick.ru)
+  Enterprise CI/CD system design
+
+  **_tags_**:
+  - Golang
+  - kubernetes api
+  - istio
+  - opentracing
+  - DevOps
+  - IaC
+  - custom CI/CD system
+  - docker
+  - ansible
+  - helm
+  - nexus
+  - vault
+  - locust load testing
+  - envoy
+
 - ###### **2018-2019** [https://www.vseinstrumenti.ru/](https://www.vseinstrumenti.ru/)
   Building IaC for monoliths to microservices transformation.
 

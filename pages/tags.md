@@ -4,44 +4,59 @@
     - Python
     - [Bash & (awk, sed, sqlite ...)][BASH-url]
     - Go
-- #### Tools:
+- #### Automation
     - [Ansible][ANSIBLE-url]
     - Docker
     - Kubernetes
-    - [Vault][VAULT-url]
-    - Istio
     - Rancher
-    - Helm
-    - Harbor
-    - ELK
-    - Prometheus
-    - Loghouse
-    - Clickhouse
-    - Fluentd
-    - Monit
-    - Munin
-    - Snmp
-    - KVM
-    - Proxmox
-    - Vagrant
+- #### Service mesh
+    - Istio
+- #### Continuous Integration
     - Gitlab
     - Jenkins
+    - GoCD
+- #### Logging
+    - Loghouse
+    - Fluentd
+    - ELK
+- #### Monitoring
+    - Prometheus
+    - Monit
+    - Munin
+- #### Continuous Delivery
+    - Helm
+- #### Containers
+    - Harbor
+- #### Web servers
     - Nginx
     - Apache
-    - Phpmyadmin
+    - nodejs
+- #### Virtualization
+    - Proxmox
+    - KVM
+- #### Build automation
     - Composer
-    - NATS Streaming
-    - RabbitMQ
-    - Kafka
-    - Zookeeper
-    - GoCD
-    - Consul
-    - Sphinx
     - Grunt
     - gulp
-    - nodejs
-    - npm
     - bower
+    - npm
+- #### Secrets management
+    - [Vault][VAULT-url]
+    - Openssl
+- #### Databases
+    - MySQL
+    - MariaDB
+    - PostgreSQL
+    - MongoDB
+    - Redis
+    - PostgreSQL
+    - Consul
+    - Elasticsearch
+    - Clickhouse
+- #### Administration
+    - Openvpn
+    - DNS
+    - PKI
     - ClamAV
     - Dovecot
     - Exim
@@ -51,10 +66,16 @@
     - Gotty
     - Shellinabox
     - Fail2ban
-    - Openssl
-    - Openvpn
-    - DNS
-    - PKI
+    - Snmp
+    - Zookeeper
+    - Sphinx
+    - Minio
+- #### Dev environment
+    - Vagrant
+- #### Message queuing
+    - NATS Streaming
+    - RabbitMQ
+    - Kafka
 - #### frameworks:
     - [SlimMVC][SLIM-url]
     - [Yii1/2][YII2-url]
@@ -65,13 +86,6 @@
     - Laravel
     - express.js
     - openresty
-- #### Databases:
-    - MySQL
-    - MariaDB
-    - PostgreSQL
-    - MongoDB
-    - Redis
-    - Elasticsearch
 - #### API integration:
     - Slack
     - Twilio
