@@ -1,14 +1,14 @@
 - #### Base programming languages:
     - [PHP][PHP-url]
     - JS
-    - Python
+    - [Python][Python-url]
     - [Bash & (awk, sed, sqlite ...)][BASH-url]
     - Go
 - #### Automation
     - [Ansible][ANSIBLE-url]
     - Docker
-    - Kubernetes
     - Rancher
+    - Vagrant
 - #### Service mesh
     - Istio
 - #### Continuous Integration
@@ -18,19 +18,22 @@
 - #### Logging
     - Loghouse
     - Fluentd
-    - ELK
+    - EFK
 - #### Monitoring
     - Prometheus
+    - Grafana
     - Monit
     - Munin
-- #### Continuous Delivery
+- #### Continuous Deployment
+    - Kubernetes
     - Helm
 - #### Containers
     - Harbor
+    - Nexus
 - #### Web servers
     - Nginx
+    - Caddy
     - Apache
-    - nodejs
 - #### Virtualization
     - Proxmox
     - KVM
@@ -44,12 +47,11 @@
     - [Vault][VAULT-url]
     - Openssl
 - #### Databases
+    - PostgreSQL
     - MySQL
     - MariaDB
-    - PostgreSQL
     - MongoDB
     - Redis
-    - PostgreSQL
     - Consul
     - Elasticsearch
     - Clickhouse
@@ -70,6 +72,7 @@
     - Zookeeper
     - Sphinx
     - Minio
+    - nodejs
 - #### Dev environment
     - Vagrant
 - #### Message queuing
@@ -106,6 +109,7 @@
     - Delphi
 
 [PHP-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=php
+[Python-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=python
 [BASH-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=shell
 [ANSIBLE-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&q=ansible
 [SYMFONY-url]: https://github.com/EvgeniyBlinov/RefrigeratorBundle

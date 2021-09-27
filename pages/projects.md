@@ -1,4 +1,22 @@
 [//]: <> (vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2)
+- ###### **2020-2021** [https://unitarius.ru/](https://unitarius.ru/)
+  Digital transformation.
+
+  **_tags_**:
+  - Kubernetes
+  - DevOps
+  - [IaC][ANSIBLE-url]
+  - Gitlab
+  - FluxCD
+  - Helm
+  - [Ansible][ANSIBLE-url]
+  - Terraform
+  - Nexus
+  - Prometheus stack
+  - EFK
+  - MinIO
+  - Python
+
 - ###### **2019-2020** [https://domclick.ru](https://domclick.ru)
   Enterprise CI/CD system design.
 
@@ -23,15 +41,15 @@
 
   **_tags_**:
   - DevOps
-  - IaC
+  - [IaC][ANSIBLE-url]
   - CI
   - CD
-  - docker
-  - ansible
-  - kubernetes
-  - harbor
-  - helm
-  - vault
+  - Docker
+  - [Ansible][ANSIBLE-url]
+  - Kubernetes
+  - Harbor
+  - Helm
+  - Vault
   - Consul
   - Prometheus
   - Loghouse
@@ -44,7 +62,7 @@
   - Python
   - Bash
   - System Administration
-  - PHP Dev
+  - [PHP Dev][PHP-url]
   - auto generated documentation CI/CD
 
 - ###### **2018** [https://evgeniyblinov.ru/](https://evgeniyblinov.ru/)
@@ -53,8 +71,8 @@
   **_tags_**:
   - DevOps
   - System Administration
-  - PHP Dev
-  - IaC
+  - [PHP Dev][PHP-url]
+  - [IaC][ANSIBLE-url]
   - CI
   - CD
 
@@ -63,7 +81,7 @@
 
   **_tags_**:
   - proxmox
-  - ansible
+  - [Ansible][ANSIBLE-url]
   - kubernetes
   - helm
   - vault
@@ -87,8 +105,8 @@
   Linux server management and monitoring dashboard.
 
   **_tags_**:
-  - python
-  - ansible
+  - [Python][Python-url]
+  - [Ansible][ANSIBLE-url]
   - docker-compose
   - DevOps
   - system administration
@@ -97,7 +115,7 @@
   Restaurant’s delivery statistic service.
 
   **_tags_**:
-  - PHP
+  - [PHP][PHP-url]
   - SQL
   - Redis
   - REST API
@@ -111,7 +129,7 @@
   The official website of the hockey club.
 
   **_tags_**:
-  - Symfony2
+  - [Symfony2][PHP-url]
   - MySQL
   - Redis
   - Sphinx
@@ -120,14 +138,14 @@
   The official website of the British Hairdressing Association.
 
   **_tags_**:
-  - Yii2
+  - [Yii2][PHP-url]
   - MySQL
 
 - ###### **2015** [http://alvioneurope.ru/](http://alvioneurope.ru/)
   The official website of the company «Alvion Europe».
 
   **_tags_**:
-  - Yii2
+  - [Yii2][PHP-url]
   - PostgreSQL
   - API
   - require.js
@@ -138,7 +156,7 @@
   Online learning service.
 
   **_tags_**:
-  - ZF2
+  - [ZF2][PHP-url]
   - MySQL
   - Redis
   - require.js
@@ -148,16 +166,25 @@
   Job marketplace for tutors, translators, language courses companies and travel agencies.
 
   **_tags_**:
-  - Yii1
+  - [Yii1][PHP-url]
   - MySQL
 
 - ###### **2012-2013** [fitbook][#-url]
   SaaS for creating individual fitness training programs.
 
   **_tags_**:
-  - yii1
+  - [Yii1][PHP-url]
   - MySQL
   - backbone.js
   - require.js
 
 [#-url]: #
+
+[PHP-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=php
+[Python-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=python
+[BASH-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=shell
+[ANSIBLE-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&q=ansible
+[SYMFONY-url]: https://github.com/EvgeniyBlinov/RefrigeratorBundle
+[YII2-url]: https://github.com/EvgeniyBlinov/yii2-social
+[SLIM-url]: https://github.com/EvgeniyBlinov/slim-advanced
+[VAULT-url]: https://github.com/EvgeniyBlinov/vault-policy-generator

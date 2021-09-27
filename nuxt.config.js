@@ -12,13 +12,16 @@ module.exports = {
     "linkedin": "https://www.linkedin.com/in/blinovevgeniy/"
   },
   head: {
+    htmlAttrs: {
+      lang: 'en'
+    },
     title: 'Blinov Evgeniy',
-    description: 'Blinov Evgeniy - web developer.',
+    description: 'Blinov Evgeniy - web developer. Enterprise CI/CD system design. Building IaC. Monoliths to microservices transformation.',
     //title: 'Blinov Evgeniy - web developer.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Blinov Evgeniy - web developer.' }
+      { hid: 'description', name: 'description', content: 'Blinov Evgeniy - web developer. Enterprise CI/CD system design. Building IaC. Monoliths to microservices transformation.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

@@ -23,6 +23,10 @@
     content: ",";
 }
 /*******************             projects        ****************************/
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
 </style>
 
 <template>
@@ -40,6 +44,8 @@
     <!--</pre>-->
 
         <div class="center">
+            <h1>{{ h1 }}</h1>
+
             <h3 class="center">
                 <strong>
                     LAST PROJECTS
@@ -56,6 +62,7 @@
 </template>
 
 <script>
+  import config from '../nuxt.config'
   import projects from './projects.md'
   import AppContacts from "./_contacts/contacts"
 
@@ -66,6 +73,11 @@
     computed: {
       projects() {
         return projects
+      }
+    },
+    data() {
+      return {
+          "h1": 'Blinov Evgeniy - web developer.'
       }
     }
   }
