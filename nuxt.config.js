@@ -1,4 +1,6 @@
 //  vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2
+const main_base_url =  'https://evgeniyblinov.ru';
+
 module.exports = {
   server: {
     port: 3000, // default: 3000
@@ -65,8 +67,15 @@ module.exports = {
         //},
         //scriptURL: '//example.com'
       }
-    ]
+    ],
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: main_base_url
+  },
+  env: {
+    main_base_url
+  },
   generate: {
     fallback: "404.html"
   }
