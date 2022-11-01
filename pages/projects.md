@@ -1,4 +1,23 @@
 [//]: <> (vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2)
+- ###### **2021** [https://aeroidea.ru/](https://aeroidea.ru/)
+  Digital transformation.
+
+  **_tags_**:
+  - Yandex Cloud
+  - Kubernetes
+  - [vault-injector](https://github.com/EvgeniyBlinov?tab=repositories&q=vault&type=source)
+  - DevOps
+  - [IaC][ANSIBLE-url]
+  - Gitlab
+  - Helm
+  - [Ansible][ANSIBLE-url]
+  - Terraform
+  - Nexus
+  - Prometheus stack
+  - ELK
+  - Kafka
+  - Python
+
 - ###### **2020-2021** [https://unitarius.ru/](https://unitarius.ru/)
   Digital transformation.
 
