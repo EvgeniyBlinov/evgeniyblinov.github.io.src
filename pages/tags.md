@@ -6,6 +6,7 @@
     - Go
 - #### Automation
     - [Ansible][ANSIBLE-url]
+    - Terraform
     - Docker
     - Rancher
     - Vagrant
@@ -24,6 +25,10 @@
     - Grafana
     - Monit
     - Munin
+- #### Tracing
+    - Opentracing
+    - Zipkin
+    - Jaeger
 - #### Continuous Deployment
     - Kubernetes
     - Helm
@@ -37,19 +42,11 @@
 - #### Virtualization
     - Proxmox
     - KVM
-- #### Build automation
-    - Composer
-    - Grunt
-    - gulp
-    - bower
-    - npm
 - #### Secrets management
     - [Vault][VAULT-url]
-    - Openssl
 - #### Databases
     - PostgreSQL
-    - MySQL
-    - MariaDB
+    - MySQL/MariaDB
     - MongoDB
     - Redis
     - Consul
@@ -73,6 +70,18 @@
     - Sphinx
     - Minio
     - nodejs
+- #### Clouds
+    - AWS
+    - Azure
+    - Yandex cloud
+- #### GitOps
+    - FluxCD
+- #### Object storage
+    - MinIO
+- #### Load testing
+    - Locust
+    - Apache JMeter
+    - Yandex Tank
 - #### Dev environment
     - Vagrant
 - #### Message queuing
@@ -115,4 +124,4 @@
 [SYMFONY-url]: https://github.com/EvgeniyBlinov/RefrigeratorBundle
 [YII2-url]: https://github.com/EvgeniyBlinov/yii2-social
 [SLIM-url]: https://github.com/EvgeniyBlinov/slim-advanced
-[VAULT-url]: https://github.com/EvgeniyBlinov/vault-policy-generator
+[VAULT-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=vault&type=source&language=&sort=

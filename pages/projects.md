@@ -1,6 +1,6 @@
 [//]: <> (vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2)
 - ###### **2021** [https://aeroidea.ru/](https://aeroidea.ru/)
-  Digital transformation.
+  Digital transformation of a large retail platform.
 
   **_tags_**:
   - Yandex Cloud

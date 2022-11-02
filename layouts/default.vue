@@ -98,6 +98,7 @@ body {
 /*******************             contact-icons        ****************************/
 .contact-icons {
   list-style-type: none;
+  padding-left: 1rem;
 }
 .contact-icons > li {
   display: inline-block;
