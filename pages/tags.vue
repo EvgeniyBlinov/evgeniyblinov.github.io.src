@@ -26,6 +26,9 @@ h3.center {
 .md-content> section>ul {
     list-style: none;
 }
+.md-content> section>ul>li>ul>li {
+    width: 10em;
+}
 #tags .md-content h4 {
     font-weight: bold;
 }

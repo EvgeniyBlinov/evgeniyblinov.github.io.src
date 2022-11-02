@@ -88,7 +88,7 @@
     - NATS Streaming
     - RabbitMQ
     - Kafka
-- #### frameworks:
+- #### Frameworks:
     - [SlimMVC][SLIM-url]
     - [Yii1/2][YII2-url]
     - [Symfony2][SYMFONY-url]
