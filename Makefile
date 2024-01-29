@@ -44,5 +44,10 @@ nuxt-generate:
 	echo '$(SITE_DOMAIN)' > \
 		./dist/CNAME
 
+deploy_git:
+	(cd ./$(SITE_NAME)/ && git add . && git commit -am 'new' && git push)
+
+deploy: generate deploy_git
+
 dev:
 	npm run dev

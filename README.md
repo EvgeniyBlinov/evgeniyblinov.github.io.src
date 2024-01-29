@@ -12,7 +12,5 @@ npm run dev
 ### Deploy
 
 ```
-make generate
-
-(cd ./evgeniyblinov.github.io/ && git add . && git commit -am 'new' && git push)
+make deploy
 ```
