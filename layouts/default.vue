@@ -2,12 +2,6 @@
 /*
 * { border: 1px solid #f00 !important; }
 */
-@media (min-width: 1440px) {
-    .list>li.list-menu-item {
-        font-size: 3rem !important;
-    }
-}
-
 html { height: 100%; }
 body {
     height: 100%;
@@ -105,7 +99,7 @@ body {
 }
 
 .pa-bot-3em {
-    padding-bottom: 3em;
+    padding-bottom: 1em;
 }
 /*******************             contact-icons        ****************************/
 .contact-icons {
@@ -116,6 +110,7 @@ body {
   display: inline-block;
   margin-right: 1rem;
   margin-left: 1rem;
+ font-size: 2.7rem;
 }
 
 .rotateble-icon {
@@ -125,6 +120,14 @@ body {
   display: inline-block;
 }
 /*******************             contact-icons        ****************************/
+@media screen and (min-width: 1440px) {
+    .list>li.list-menu-item {
+        font-size: 3rem;
+    }
+    .contact-icons > li {
+        font-size: 4rem;
+    }
+}
 </style>
 
 <template>
