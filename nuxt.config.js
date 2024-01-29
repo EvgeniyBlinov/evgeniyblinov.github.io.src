@@ -7,6 +7,7 @@ module.exports = {
     host: '0.0.0.0', // default: localhost
   },
   data: {
+    "shortIntro": "Blinov Evgeniy - software engineer",
     "skype": "evgeniy_blinov",
     "telegram": "https://t.me/cent_ru",
     "email": "evgeniy_blinov@mail.ru",
@@ -18,12 +19,12 @@ module.exports = {
       lang: 'en'
     },
     title: 'Blinov Evgeniy',
-    description: 'Blinov Evgeniy - web developer. Enterprise CI/CD system design. Building IaC. Monoliths to microservices transformation.',
+    description: 'Blinov Evgeniy - software engineer. Enterprise CI/CD system design. Building IaC. Monoliths to microservices transformation.',
     //title: 'Blinov Evgeniy - web developer.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Blinov Evgeniy - web developer. Enterprise CI/CD system design. Building IaC. Monoliths to microservices transformation.' }
+      { hid: 'description', name: 'description', content: 'Blinov Evgeniy - software engineer. Enterprise CI/CD system design. Building IaC. Monoliths to microservices transformation.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

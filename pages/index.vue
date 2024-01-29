@@ -77,7 +77,7 @@ h1 {
     },
     data() {
       return {
-          "h1": 'Blinov Evgeniy - web developer.'
+          "h1": config.data.shortIntro
       }
     }
   }

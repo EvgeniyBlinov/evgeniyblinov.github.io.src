@@ -67,7 +67,7 @@ body {
 .list> li> a.noroute, label>a.noroute {
     pointer-events: none;
 }
-.list>li:hover {
+.list>li.list-menu-item:hover {
     background-color: rgba(255, 255, 255, 0.2);
     border-left: 5px solid white;
     color: white;
@@ -294,9 +294,9 @@ body {
                     <br>
 
                     <ul class="list">
-                        <li><nuxt-link to="/">Last projects</nuxt-link></li>
-                        <li><nuxt-link to="/contacts">Contacts</nuxt-link></li>
-                        <li><nuxt-link to="/tags">Tags</nuxt-link></li>
+                        <li class="list-menu-item"><nuxt-link to="/">Last projects</nuxt-link></li>
+                        <li class="list-menu-item"><nuxt-link to="/contacts">Contacts</nuxt-link></li>
+                        <li class="list-menu-item"><nuxt-link to="/tags">Tags</nuxt-link></li>
                         <li class="divider"></li>
                     </ul>
 

@@ -1,9 +1,9 @@
 - #### Base programming languages:
     - [PHP][PHP-url]
-    - JS
-    - [Python][Python-url]
-    - [Bash & (awk, sed, sqlite ...)][BASH-url]
+    - [Python][PYTHON-url]
     - Go
+    - JS
+    - [Bash & (awk, sed, sqlite ...)][BASH-url]
 - #### Automation
     - [Ansible][ANSIBLE-url]
     - Terraform
@@ -13,9 +13,11 @@
 - #### Service mesh
     - Istio
 - #### Continuous Integration
-    - Gitlab
+    - [Gitlab][GITLAB-url]
     - Jenkins
     - GoCD
+- #### GitOps
+    - FluxCD
 - #### Logging
     - Loghouse
     - Fluentd
@@ -32,9 +34,9 @@
 - #### Continuous Deployment
     - Kubernetes
     - Helm
-- #### Containers
+- #### Artifact Management
     - Harbor
-    - Nexus
+    - [Nexus][NEXUS-url]
 - #### Web servers
     - Nginx
     - Caddy
@@ -74,8 +76,6 @@
     - AWS
     - Azure
     - Yandex cloud
-- #### GitOps
-    - FluxCD
 - #### Object storage
     - MinIO
 - #### Load testing
@@ -117,11 +117,16 @@
     - D lang
     - Delphi
 
+[#-url]: #
+
 [PHP-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=php
-[Python-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=python
+[PYTHON-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=python
 [BASH-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=shell
 [ANSIBLE-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&q=ansible
 [SYMFONY-url]: https://github.com/EvgeniyBlinov/RefrigeratorBundle
 [YII2-url]: https://github.com/EvgeniyBlinov/yii2-social
 [SLIM-url]: https://github.com/EvgeniyBlinov/slim-advanced
-[VAULT-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=vault&type=source&language=&sort=
+[VAULT-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=vault&type=source
+[NEXUS-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=nexus&type=source
+[GITLAB-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=gitlab&type=source
+

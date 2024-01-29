@@ -1,22 +1,24 @@
 [//]: <> (vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2)
-- ###### **2021** [https://aeroidea.ru/](https://aeroidea.ru/)
+- ###### **2021-2023** [https://aeroidea.ru/](https://aeroidea.ru/)
   Digital transformation of a large retail platform.
 
   **_tags_**:
   - Yandex Cloud
   - Kubernetes
-  - [vault-injector](https://github.com/EvgeniyBlinov?tab=repositories&q=vault&type=source)
+  - [Vault][VAULT-url]
+  - [vault-injector][VAULT-url]
   - DevOps
   - [IaC][ANSIBLE-url]
-  - Gitlab
+  - [Gitlab][GITLAB-url]
   - Helm
   - [Ansible][ANSIBLE-url]
   - Terraform
-  - Nexus
+  - [Nexus][NEXUS-url]
   - Prometheus stack
   - ELK
   - Kafka
-  - Python
+  - [Python][PYTHON-url]
+  - auto generated documentation
 
 - ###### **2020-2021** [https://unitarius.ru/](https://unitarius.ru/)
   Digital transformation.
@@ -25,35 +27,36 @@
   - Kubernetes
   - DevOps
   - [IaC][ANSIBLE-url]
-  - Gitlab
+  - [Gitlab][GITLAB-url]
   - FluxCD
   - Helm
   - [Ansible][ANSIBLE-url]
   - Terraform
-  - Nexus
+  - [Nexus][NEXUS-url]
   - Prometheus stack
   - EFK
   - MinIO
-  - Python
+  - [Python][PYTHON-url]
+  - auto generated documentation
 
 - ###### **2019-2020** [https://domclick.ru](https://domclick.ru)
   Enterprise CI/CD system design.
 
   **_tags_**:
   - Golang
-  - kubernetes api
-  - istio
-  - opentracing
+  - Kubernetes api
+  - Istio
+  - Opentracing
   - DevOps
   - IaC
-  - custom CI/CD system
-  - docker
-  - ansible
-  - helm
-  - nexus
-  - vault
-  - locust load testing
-  - envoy
+  - Custom CI/CD system
+  - Docker
+  - Ansible
+  - Helm
+  - [Nexus][NEXUS-url]
+  - [Vault][VAULT-url]
+  - Locust load testing
+  - Envoy
 
 - ###### **2018-2019** [https://www.vseinstrumenti.ru/](https://www.vseinstrumenti.ru/)
   Building IaC for monoliths to microservices transformation.
@@ -68,17 +71,17 @@
   - Kubernetes
   - Harbor
   - Helm
-  - Vault
+  - [Vault][VAULT-url]
   - Consul
   - Prometheus
   - Loghouse
   - Clickhouse
   - Fluentd
   - NATS Streaming
-  - Gitlab
+  - [Gitlab][GITLAB-url]
   - DNS
   - PKI
-  - Python
+  - [Python][PYTHON-url]
   - Bash
   - System Administration
   - [PHP Dev][PHP-url]
@@ -101,24 +104,24 @@
   **_tags_**:
   - proxmox
   - [Ansible][ANSIBLE-url]
-  - kubernetes
-  - helm
-  - vault
-  - terraform
-  - docker-compose
+  - Kubernetes
+  - Helm
+  - [Vault][VAULT-url]
+  - Terraform
+  - Docker-compose
   - Azure
   - ELK
   - Prometheus
   - Alertmanager
   - Consul
-  - docker
-  - gocd
-  - harbor
-  - kafka
-  - rancher
-  - zookeeper
-  - bind9
-  - nfs
+  - Docker
+  - Gocd
+  - Harbor
+  - Kafka
+  - Rancher
+  - Zookeeper
+  - Bind9
+  - Nfs
 
 - ###### **2017** [https://serversuit.com](https://serversuit.com)
   Linux server management and monitoring dashboard.
@@ -200,10 +203,12 @@
 [#-url]: #
 
 [PHP-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=php
-[Python-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=python
+[PYTHON-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=python
 [BASH-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&language=shell
 [ANSIBLE-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=&type=source&q=ansible
 [SYMFONY-url]: https://github.com/EvgeniyBlinov/RefrigeratorBundle
 [YII2-url]: https://github.com/EvgeniyBlinov/yii2-social
 [SLIM-url]: https://github.com/EvgeniyBlinov/slim-advanced
-[VAULT-url]: https://github.com/EvgeniyBlinov/vault-policy-generator
+[VAULT-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=vault&type=source
+[NEXUS-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=nexus&type=source
+[GITLAB-url]: https://github.com/EvgeniyBlinov?tab=repositories&q=gitlab&type=source
