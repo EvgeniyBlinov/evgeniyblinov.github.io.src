@@ -2,6 +2,12 @@
 /*
 * { border: 1px solid #f00 !important; }
 */
+@media (min-width: 1440px) {
+    .list>li.list-menu-item {
+        font-size: 3rem !important;
+    }
+}
+
 html { height: 100%; }
 body {
     height: 100%;
@@ -11,6 +17,7 @@ body {
     background-position: center;
     background-size: cover;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
 }
 #__nuxt { height: 100%; }
 #__layout { height: 100%; }
@@ -55,17 +62,22 @@ body {
     padding: 5px 0px 0px 0px;
     margin-left: 0px;
 }
+.list> li, h6 {
+    font-size: 16px;
+}
 .list> li> a, label>a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
-    font-size: 1.5rem;
     font-weight: bold;
     margin-left: 0;
 }
 .list> li> a.noroute, label>a.noroute {
     pointer-events: none;
+}
+.list>li.list-menu-item {
+    font-size: 2.3rem;
 }
 .list>li.list-menu-item:hover {
     background-color: rgba(255, 255, 255, 0.2);
@@ -103,7 +115,6 @@ body {
 .contact-icons > li {
   display: inline-block;
   margin-right: 1rem;
-  font-size: 2rem;
   margin-left: 1rem;
 }
 
