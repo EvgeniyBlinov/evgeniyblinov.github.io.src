@@ -23,10 +23,10 @@ h3.center {
     padding-left: 1em;
     font-weight: bold;
 }
-.md-content> section>ul {
+#tags .md-content> section>ul {
     list-style: none;
 }
-.md-content> section>ul>li>ul>li {
+#tags .md-content> section>ul>li>ul>li {
     width: 10em;
 }
 #tags .md-content h4 {
