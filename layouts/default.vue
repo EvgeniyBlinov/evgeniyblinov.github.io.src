@@ -37,8 +37,8 @@ body {
     padding: 3px;
     border: 3px solid white;
     border-radius: 50%;
-    height: 64px;
-    width: 64px;
+    height: 10rem;
+    width: 10rem;
 }
 .list {
     color: #fff;
