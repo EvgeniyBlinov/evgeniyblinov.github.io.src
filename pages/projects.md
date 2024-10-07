@@ -1,4 +1,12 @@
 [//]: <> (vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2)
+- ###### **2023-2024** [https://evgeniyblinov.ru/](https://evgeniyblinov.ru/)
+  Remote work.
+
+  **_tags_**:
+  - DevOps
+  - System Architect
+  - Consulting
+
 - ###### **2021-2023** [https://aeroidea.ru/](https://aeroidea.ru/)
   Digital transformation of a large retail platform.
 
