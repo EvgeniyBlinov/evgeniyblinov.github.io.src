@@ -1,5 +1,5 @@
 [//]: <> (vim: set et fenc=utf-8 ff=unix sts=2 sw=2 ts=2)
-- ###### **2023-2024** [https://evgeniyblinov.ru/](https://evgeniyblinov.ru/)
+- ###### **2023-...** [https://evgeniyblinov.ru/](https://evgeniyblinov.ru/)
   Remote work.
 
   **_tags_**:
